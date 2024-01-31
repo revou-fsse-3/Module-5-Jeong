@@ -1,8 +1,8 @@
 import Image from "next/image";
-import { Inter } from "next/font/google";
+
 import { Navbar } from "../components"
 
-const inter = Inter({ subsets: ["latin"] });
+const inter = "'Inter', sans-serif";
 
 export default function Home() {
   return (
